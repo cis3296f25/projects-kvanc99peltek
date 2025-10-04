@@ -1,0 +1,41 @@
+# Core FastAPI dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+
+# Additional utilities
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database and vector search (for future implementation)
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+pgvector==0.2.4
+
+# AI/ML libraries (for future implementation)
+openai-whisper==20231117
+sentence-transformers==2.2.2
+transformers==4.36.2
+torch==2.1.2
+
+# PDF processing
+pypdf==3.17.4
+PyPDF2==3.0.1
+
+# Audio processing
+librosa==0.10.1
+soundfile==0.12.1
+
+# HTTP client
+httpx==0.25.2
+requests==2.31.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
